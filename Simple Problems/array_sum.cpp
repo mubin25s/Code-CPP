@@ -13,4 +13,7 @@ int main() {
         sum += numbers[i];
     }
 
-    cout << "\nSum = 
+    cout << "\nSum = " << sum << endl;
+
+    return 0;
+}
