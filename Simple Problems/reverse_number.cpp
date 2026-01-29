@@ -8,7 +8,9 @@ int main() {
     cout << "Enter an integer: ";
     cin >> n;
 
-    while(n != 0) {versedNumber * 10 + remainder;
+    while(n != 0) {
+        remainder = n % 10;
+        reversedNumber = reversedNumber * 10 + remainder;
         n /= 10;
     }
 
