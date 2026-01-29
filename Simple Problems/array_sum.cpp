@@ -1,7 +1,9 @@
 #include <iostream>
 
 using namespace std;
- numbers[5] = {7, 5, 6, 12, 35};
+
+int main() {
+    int numbers[5] = {7, 5, 6, 12, 35};
     int sum = 0;
     int count = 5;
 
