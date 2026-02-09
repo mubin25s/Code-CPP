@@ -16,7 +16,7 @@ int main() {
             if (n % i == 0) {
                 isPrime = false;
                 break;
-            }
+            }    }
     }
 
     if (isPrime)
