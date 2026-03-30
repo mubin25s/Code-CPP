@@ -26,6 +26,7 @@ private:
     int capacity;
     int count;
 
+
 public:
     Inventory(int cap) : capacity(cap), count(0) {
         // Dynamically allocating array of Item pointers
